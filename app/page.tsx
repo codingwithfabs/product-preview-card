@@ -5,7 +5,7 @@ export default function Page() {
   return (
     <main className="flex justify-center items-center min-h-screen bg-[#f2ebe3]">
       {/* Card */}
-      <div className='flex flex-row max-w-2xl rounded-xl overflow-hidden'>
+      <div className='flex flex-row max-w-2xl rounded-xl overflow-hidden max-sm:w-[375px]'>
         {/* Image Section */}
         <div className='flex-1 relative hidden md:block'>
           <Image src="/image-product-desktop.jpg" fill alt='Product Image' />
